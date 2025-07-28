@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="auther" content="Sakurai Yuichi">
+    <meta name="keywords" content="html, css, javascript">
+    
+    <!--CSSとの紐づけ、CSSへのパスは相対パスで表記する-->
+    <!-- <link rel="stylesheet" href="./css/main.css"> -->
+    
+    <title>第13回コンリテ2</title>
+</head>
+
+
+
+<body>
+
+    <div class="container">
+
+        <header>
+            <h1 id="top">コンリテ２</h1>
+
+            <nav class="gnav">
+                <ul>
+                    <li>ホーム</li>
+                    <li>リファレンス</li>
+                    <li>問い合わせ</li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+
+            <section>
+                <h2>jquery</h2>
+
+                <div>
+                    <section>
+                        <h3>セレクタ</h3>
+                        <div>
+                            <p id="test-p-1">あ</p>
+                            <p class="test-p-2">いい</p>
+                            <p id="test-p-3">ううう</p>
+                        </div>
+                    </section>
+
+                    <section>
+                        <h3>メソッド</h3>
+                        <div>
+                            <button type="button" onclick="toggle()">表示・非表示</button>
+                            <button type="button" onclick="slide()">スライド</button>
+                            <button type="button" onclick="fade()">フェード</button>
+                            <button type="button" onclick="color()">CSS操作</button>
+                            <button type="button" onclick="costomAnimate()">カスタムアニメーション</button>
+
+
+                        </div>
+                    </section>
+
+                    <section>
+                        <h3>イベントハンドラ</h3>
+                        <div>
+
+                        </div>
+                    </section>
+                </div>
+            </section>
+
+            <section>
+                <h2>JQuery</h2>
+            </section>
+
+            <section>
+                <h2>Chart.js</h2>
+            </section>
+
+        </main>
+
+        <footer>
+            Copyright &copy; Sakurai, All Rights Reserved.
+        </footer>
+    </div>
+
+    <!-- 外部のjavascriptを読み込む -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <!-- chart.js -->
+    <script src="
+https://cdn.jsdelivr.net/npm/chart.js@4.5.0/dist/chart.umd.min.js">
+    </script>
+
+    <!-- 自分のjavascriptファイルを読み込む場合 -->
+    <script src="./js/jquery-test.js"></script>
+    <script src="./js/chart-test.js"></script>
+
+
+</body>
+
+</html>
